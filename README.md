@@ -5,7 +5,7 @@ This is a fork of adyen-java-spring-online-payments repository to demo how to de
 You must satisfy the following pre-requisites:
 
 * Have an Fly.io account (free tier is enough)
-* Fly CLI (`flyctl`)installed
+* Have Fly CLI (`flyctl`) installed
 
 ## Adyen keys and configuration
 
