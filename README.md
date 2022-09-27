@@ -44,7 +44,7 @@ Set the secrets with the values obtained in the Customer Area (see above)
 
 ## Allowed origin
 
-In the Customer Area remember to include https://*.fly.dev in the list of Allowed Origins
+In the Customer Area remember to include `https://*.fly.dev` in the list of Allowed Origins
 for the API credential setup for this application.
 
 ## Deploy 
