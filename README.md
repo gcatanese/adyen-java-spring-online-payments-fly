@@ -1,11 +1,11 @@
 # Adyen Node Sample on Heroku
-This is a fork of adyen-java-spring-online-payments which describes the steps to deploy the Adyen Sample application on Fly.io (using Docker).
+This is a fork of adyen-java-spring-online-payments repository to demo how to deploy the Adyen Sample application on Fly.io (using Docker).
 
-Pre-requisites
+## Pre-requisites
 You must satisfy the following pre-requisites:
 
-Have an Fly.io account (free tier is enough)
-Fly CLI (`flyctl`)installed
+* Have an Fly.io account (free tier is enough)
+* Fly CLI (`flyctl`)installed
 
 ## Adyen keys and configuration
 
@@ -33,7 +33,7 @@ When prompted provided the required information:
 * PostgreSQL DB? No (not necessary)
 * Deploy now? No
 
-Set the secrets with the values obtaine in the Customer Area (see above)
+Set the secrets with the values obtained in the Customer Area (see above)
 
 ```
   % flyctl secrets set ADYEN_API_KEY="xxxx"
@@ -47,6 +47,7 @@ Set the secrets with the values obtaine in the Customer Area (see above)
 In the Customer Area remember to include https://*.fly.dev in the list of Allowed Origins
 for the API credential setup for this application.
 
+## Deploy 
 You are now ready to deploy 
 ```
   % flyctl deploy
