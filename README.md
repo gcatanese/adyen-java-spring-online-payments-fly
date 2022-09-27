@@ -1,4 +1,4 @@
-# Adyen Node Sample on Heroku
+# Adyen Node Sample on Fly.io
 This is a fork of adyen-java-spring-online-payments repository to demo how to deploy the Adyen Sample application on Fly.io (using Docker).
 
 ## Pre-requisites
